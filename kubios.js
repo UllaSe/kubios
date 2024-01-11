@@ -77,7 +77,9 @@ const get_data = async () => {
 };
 
 get_data().then((x) => {
-  console.log('Destructuring stuff here to quickly see results object');
+  console.log(
+    'Destructuring stuff here to quickly see results object, Matti might do this better :D'
+  );
   const { results } = x;
   console.log(results);
   console.log(x.user_info);
